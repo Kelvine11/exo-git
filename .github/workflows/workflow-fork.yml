@@ -1,0 +1,9 @@
+name: exo2
+
+on: fork
+
+jobs:
+  job:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Fork"
